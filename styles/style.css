@@ -194,7 +194,7 @@
   position: relative;
   background-image: url(../images/feynman.png);
   background-size: 876px 637px;
-  background-position: left 0 bottom 0 ;
+  background-position: left 0 bottom 0;
   background-repeat: no-repeat;
 }
 
@@ -243,10 +243,6 @@
 
 .section-subtitle_theme_dark {
   color: #f2f2f2;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
 }
 
 .table__heading_theme_dark {
