@@ -10,6 +10,10 @@
 }
 
 /* ===========header=========== */
+.logo {
+  width: 228px;
+  height: 32px;
+}
 
 .logo_place_header {
   position: absolute;
@@ -281,12 +285,11 @@
   background-color: #1f1f1f;
   box-sizing: border-box;
   min-height: 350px;
-  height: 100%;
+  display: flex;
+  padding: 60px 0 40px 0;
 }
 .footer__columns {
   width: 90%;
-  height: 100%;
-  /* padding: 60px 0 40px 0; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -307,9 +310,8 @@
   font-weight: 400;
 }
 
-.logo.logo_place_footer {
-  width: 228px;
-  height: 32px;
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__column_content_info {
@@ -319,7 +321,7 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin:0 0 20px 0 ;
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
